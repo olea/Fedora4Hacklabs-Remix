@@ -1,0 +1,7 @@
+
+Check ks file:
+	ksvalidator -i Fedora4Hacklabs-Remix.ks
+
+Generate live image:
+	livecd-creator --config=Fedora4Hacklabs-Remix.ks --cache=cache --fslabel=Fedora4Hacklabs-Remix
+
